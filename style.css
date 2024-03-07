@@ -17,6 +17,8 @@ body{
     max-width: 600px;
     height: 400px;
     display: flex;
+    box-shadow: 1px 10px 10px hsla(241, 81%, 54%, 0.216);
+    border-radius: 20px;
 
 
 }
@@ -28,8 +30,20 @@ body{
     gap: 10px;
     text-align: center;
     justify-content: center;
+    align-items: center;
     padding: 50px;
     border-radius: 20px;
+    color: white;
+}
+.card-left p, span{
+    color: rgba(255, 255, 255, 0.612);
+}
+
+.card-left span{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
 }
 
 .card-right{
@@ -38,6 +52,15 @@ body{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    gap: 15px;
+    font-weight: 500;
+    justify-content: space-between;
+    
+}
+.card-right span{
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
 }
 
 .flex-title{
@@ -51,9 +74,82 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 30px;
+    height: 40px;
+    padding: 10px;
     background-color: hsla(0, 100%, 67%, 0.061);
+    border-radius: 10px;
 }
 .flex-list-1 h3{
     color: hsl(0, 100%, 67%);
+}
+.flex-list-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: hsla(39, 100%, 56%, 0.061);
+    border-radius: 10px;
+}
+.flex-list-2 h3{
+    color: hsl(39, 100%, 56%);
+}
+.flex-list-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: hsla(166, 100%, 67%, 0.061);
+    border-radius: 10px;
+}
+.flex-list-3 h3{
+    color: hsl(166, 100%, 37%);
+}
+.flex-list-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: hsla(234, 85%, 67%, 0.061);
+    border-radius: 10px;
+}
+.flex-list-4 h3{
+    color: hsl(234, 85%, 45%);
+}
+
+.circle{
+    width: 180px;
+    height: 180px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 50px;
+    color: hsl(0, 0%, 100%);
+}
+.circle span{
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 40%;
+}
+button{
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+img{
+    width: 15px;
 }
