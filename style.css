@@ -153,3 +153,13 @@ button:hover{
 img{
     width: 15px;
 }
+.text-grey span{
+    color: rgba(198, 198, 198, 0.483);
+    font-size: 18px;
+}
+.text-grey{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
